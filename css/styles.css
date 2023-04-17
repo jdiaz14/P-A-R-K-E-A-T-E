@@ -200,7 +200,7 @@ main {
     }
     @media screen and (max-width: 768px) {
       .informacion h1 {
-        font-size: 50px;
+        font-size: 30px;
         font-weight: bold;
         margin-bottom: auto;
       }
