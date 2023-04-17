@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Reserva de parqueadero</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a class="logo">P A R K E A T E</a>
+      <a href="perfil.php" class="nav-link">Perfil</a>
+      <a href="logout.php" class="nav-link">Cerrar sesión</a>
+      <a href="contacto.html" class="nav-contac">Contacto</a>
+    </nav>
+  </header>
+  <main>
+    <section class="formulario-reserva">
+      <h2>Reserva de parqueadero</h2>
+      <form>
+        <section class="parqueaderos-disponibles">
+            <h2>Parqueaderos disponibles</h2>
+            <label for="posicion">Posición:</label>
+            <select id="posicion" name="posicion">
+              <option value="1">Posición 1</option>
+              <option value="2">Posición 2</option>
+              <option value="3">Posición 3</option>
+              <option value="4">Posición 4</option>
+            </select>
+        </section>
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha">
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email">
+        <label for="placa">Placa:</label>
+        <input type="text" id="placa" name="tarjeta">
+        <button type="submit">Reservar</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <nav>
+      <a class="logo">P A R K E A T E</a>
+    </nav>
+    <p>Todos los derechos reservados &copy; 2023 Parkeate - Reserva de Parqueaderos</p>
+  </footer>
+</body>
+</html>
