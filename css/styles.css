@@ -194,7 +194,7 @@ main {
   
   @media screen and (max-width: 768px) {
     .parqueaderos li {
-      width: 100%; /* los elementos ocupan todo el ancho de su contenedor */
+      width:auto; /* los elementos ocupan todo el ancho de su contenedor */
       margin-right: 0; /* eliminamos el margen derecho */
       margin-bottom: 20px;
     }
