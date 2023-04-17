@@ -203,7 +203,7 @@ main {
   footer {
     background-color: #ffffff;
     padding: 40px;
-    color: #484848;
+    color: #000000;
     font-size: 16px;
     display: flex;
     flex-direction: column;
@@ -216,7 +216,7 @@ main {
   footer a.logo {
     font-size: 24px;
     font-weight: 700;
-    color: #484848;
+    color: #000000;
     margin-bottom: 10px;
   }
   
