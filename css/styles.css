@@ -88,18 +88,21 @@ header {
     }
   
     .logo {
+      font-size: 25px;
       order: 3;
       margin: auto;
       margin-bottom: 5px;
     }
   
     .nav-link {
+      font-size: 10px;
       order: 1;
       margin: auto;
       margin-right: 5px;
     }
   
     .nav-contac {
+      font-size: 10px;
       order: 2;
       margin: auto;
       margin-bottom: 5px;
@@ -194,7 +197,8 @@ main {
   
   @media screen and (max-width: 768px) {
     .parqueaderos li {
-      width: 100%; /* los elementos ocupan todo el ancho de su contenedor */
+      width: 90%; /* los elementos ocupan todo el ancho de su contenedor */
+      align-items: center;
       margin-right: 0; /* eliminamos el margen derecho */
       margin-bottom: 20px;
     }
