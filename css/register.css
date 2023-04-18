@@ -203,4 +203,40 @@ body {
   .registro a:hover {
     color: #00A699;
   }
+  /* Estilos para pantallas más pequeñas */
+
+@media only screen and (max-width: 768px) {
+    .registro {
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    .registro h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+  
+    .registro form label {
+      font-size: 1.2rem;
+    }
+  
+    .registro form input[type="text"],
+    .registro form input[type="email"],
+    .registro form input[type="password"] {
+      font-size: 1.2rem;
+      padding: 0.5rem;
+      width: 100%;
+      margin-bottom: 1rem;
+      box-sizing: border-box;
+    }
+  
+    .registro form input[type="submit"] {
+      font-size: 1.2rem;
+      padding: 0.5rem;
+      width: 100%;
+      margin-top: 1rem;
+      box-sizing: border-box;
+    }
+  }
+  
   
