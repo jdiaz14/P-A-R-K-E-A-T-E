@@ -1,0 +1,206 @@
+body {
+    background-color: #ffffff;
+  }
+  body {
+    background-color: #ffffff;
+  }
+  
+  header {
+    background-color: #000000;
+    color: #000000;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #00A699;
+    text-decoration: none;
+  }
+  
+  .nav-link {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .nav-link:hover {
+    color: #00A699;
+    border-bottom: 2px solid #00A699;
+    padding-bottom: 3px;
+  }
+  
+  .nav-contac {
+    font-size: 16px;
+    font-weight: bold;
+    color: #00A699;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    border: 2px solid #00A699;
+    border-radius: 5px;
+  }
+  
+  .nav-contac:hover {
+    background-color: #00A699;
+    color: #000000;
+  }
+  @media screen and (max-width: 768px) {
+    nav {
+      flex-wrap: wrap;
+    }
+  
+    .logo {
+      order: 3;
+      margin: auto;
+      margin-bottom: 5px;
+    }
+  
+    .nav-link {
+      order: 1;
+      margin: auto;
+      margin-right: 5px;
+    }
+  
+    .nav-contac {
+      order: 2;
+      margin: auto;
+      margin-bottom: 5px;
+    }
+  }
+  
+  @media screen and (max-width: 1300px) {
+    nav {
+      flex-wrap: wrap;
+    }
+  
+    .logo {
+      font-size: 25px;
+      order: 3;
+      margin: auto;
+      margin-bottom: 5px;
+    }
+  
+    .nav-link {
+      font-size: 10px;
+      order: 1;
+      margin: auto;
+      margin-right: 5px;
+    }
+  
+    .nav-contac {
+      font-size: 10px;
+      order: 2;
+      margin: auto;
+      margin-bottom: 5px;
+    }
+  }
+  footer {
+    background-color: #ffffff;
+    padding: 40px;
+    color: #000000;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: auto;
+  }
+  
+  footer a.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    margin-top: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    footer {
+      flex-direction: column;
+    }
+  
+    footer a.logo {
+      margin-bottom: 20px;
+    }
+  }
+
+/* Estilos para el formulario de registro */
+.registro {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .registro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #3C3C3C;
+  }
+  
+  .registro label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    color: #3C3C3C;
+  }
+  
+  .registro input[type="text"],
+  .registro input[type="email"],
+  .registro input[type="password"] {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1.5rem;
+    border-radius: 4px;
+    border: 1px solid #D8D8D8;
+  }
+  
+  .registro input[type="submit"] {
+    background-color:#00A699;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+  }
+  
+  .registro input[type="submit"]:hover {
+    background-color:#00A699;
+  }
+  
+  .registro p {
+    font-size: 1rem;
+    margin-top: 2rem;
+    color: #3C3C3C;
+  }
+  
+  .registro a {
+    color: #00A699;
+  }
+  
+  .registro a:hover {
+    color: #00A699;
+  }
+  
