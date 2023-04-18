@@ -60,56 +60,34 @@ body {
     background-color: #00A699;
     color: #000000;
   }
-  @media screen and (max-width: 768px) {
-    nav {
-      flex-wrap: wrap;
+  
+  /* Estilos para el header en pantallas pequeñas */
+  @media only screen and (max-width: 768px) {
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 0;
     }
   
     .logo {
-      order: 3;
-      margin: auto;
-      margin-bottom: 5px;
+      font-size: 24px;
+      margin-bottom: 10px;
     }
   
-    .nav-link {
-      order: 1;
-      margin: auto;
-      margin-right: 5px;
-    }
-  
-    .nav-contac {
-      order: 2;
-      margin: auto;
-      margin-bottom: 5px;
-    }
-  }
-  
-  @media screen and (max-width: 1300px) {
     nav {
-      flex-wrap: wrap;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   
-    .logo {
-      font-size: 25px;
-      order: 3;
-      margin: auto;
-      margin-bottom: 5px;
-    }
-  
-    .nav-link {
-      font-size: 10px;
-      order: 1;
-      margin: auto;
-      margin-right: 5px;
-    }
-  
-    .nav-contac {
-      font-size: 10px;
-      order: 2;
-      margin: auto;
-      margin-bottom: 5px;
+    .nav-link,
+    .nav-contact {
+      margin: 10px 0;
     }
   }
+  
+  
   footer {
     background-color: #ffffff;
     padding: 40px;
