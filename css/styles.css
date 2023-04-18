@@ -1,252 +1,256 @@
 body {
-    background-color: #ffffff;
-  }
-  
-header {
-    background-color: #000000;
-    color: #000000;
-    padding: 20px;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .logo {
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: #00A699;
-    text-decoration: none;
-  }
-  
-  .nav-link {
-    font-size: 15px;
-    font-weight: bold;
-    color: #ffffff;
-    text-decoration: none;
-    margin-left: 20px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-  
-  .nav-link:hover {
-    color: #00A699;
-    border-bottom: 2px solid #00A699;
-    padding-bottom: 3px;
-  }
-  
-  .nav-contac {
-    font-size: 16px;
-    font-weight: bold;
-    color: #00A699;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    padding: 10px 15px;
-    border: 2px solid #00A699;
-    border-radius: 5px;
-  }
-  
-  .nav-contac:hover {
-    background-color: #00A699;
-    color: #000000;
-  }
-  
-  @media screen and (max-width: 768px) {
-    nav {
-      flex-wrap: wrap;
-    }
-  
-    .logo {
-      order: 3;
-      margin: auto;
-      margin-bottom: 5px;
-    }
-  
-    .nav-link {
-      order: 1;
-      margin: auto;
-      margin-right: 5px;
-    }
-  
-    .nav-contac {
-      order: 2;
-      margin: auto;
-      margin-bottom: 5px;
-    }
-  }
+  background-color: #ffffff;
+}
 
-  @media screen and (max-width: 1300px) {
-    nav {
-      flex-wrap: wrap;
-    }
-  
-    .logo {
-      font-size: 25px;
-      order: 3;
-      margin: auto;
-      margin-bottom: 5px;
-    }
-  
-    .nav-link {
-      font-size: 10px;
-      order: 1;
-      margin: auto;
-      margin-right: 5px;
-    }
-  
-    .nav-contac {
-      font-size: 10px;
-      order: 2;
-      margin: auto;
-      margin-bottom: 5px;
-    }
-  }
-  
-  /* Estilo para la sección "informacion" */
-.informacion {
-    background-color: #000000;
-    color: #ffffff;
-    padding: 50px;
-    text-align: center;
-    margin: auto;
-  }
-  
-  .informacion h1 {
-    font-size: 75px;
-    font-weight: bold;
-    margin-bottom: auto;
-  }
- 
-  
-  .informacion p {
-    font-size: 30px;
-    margin-bottom: 50;
-    
-  }
-  
-  /* Estilo para la sección "parqueaderos" */
-  /* Agregamos un padding al main */
-main {
-    padding: 20px;
-  }
-  
-  .parqueaderos {
-    margin: auto;
-    padding: auto;
-  }
-  
-  .parqueaderos h2 {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-align: center;
-    
-  }
-  
-  .parqueaderos ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
+header {
+  background-color: #000000;
+  color: #000000;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #00A699;
+  text-decoration: none;
+}
+
+.nav-link {
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nav-link:hover {
+  color: #00A699;
+  border-bottom: 2px solid #00A699;
+  padding-bottom: 3px;
+}
+
+.nav-contac {
+  font-size: 16px;
+  font-weight: bold;
+  color: #00A699;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 15px;
+  border: 2px solid #00A699;
+  border-radius: 5px;
+}
+
+.nav-contac:hover {
+  background-color: #00A699;
+  color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
     flex-wrap: wrap;
   }
-  
+
+  .logo {
+    order: 3;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+
+  .nav-link {
+    order: 1;
+    margin: auto;
+    margin-right: 5px;
+  }
+
+  .nav-contac {
+    order: 2;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  nav {
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    font-size: 25px;
+    order: 3;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+
+  .nav-link {
+    font-size: 10px;
+    order: 1;
+    margin: auto;
+    margin-right: 5px;
+  }
+
+  .nav-contac {
+    font-size: 10px;
+    order: 2;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+}
+
+/* Estilo para la sección "informacion" */
+.informacion {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+}
+
+.informacion h1 {
+  font-size: 75px;
+  font-weight: bold;
+  margin-bottom: auto;
+}
+
+
+.informacion p {
+  font-size: 30px;
+  margin-bottom: 50;
+
+}
+
+/* Estilo para la sección "parqueaderos" */
+/* Agregamos un padding al main */
+main {
+  padding: 20px;
+}
+
+.parqueaderos {
+  margin: auto;
+  padding: auto;
+}
+
+.parqueaderos h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+
+.parqueaderos ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.parqueaderos li {
+  width: calc(33.33% - 20px);
+  /* calculamos el ancho de los elementos, restando 20px para tener en cuenta el margen entre ellos */
+  margin-bottom: 50px;
+}
+
+.parqueaderos img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.parqueaderos h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.parqueaderos p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.boton-reserva {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00A699;
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.boton-reserva:hover {
+  background-color: #007c73;
+}
+
+@media screen and (max-width: 768px) {
   .parqueaderos li {
-    width: calc(33.33% - 20px); /* calculamos el ancho de los elementos, restando 20px para tener en cuenta el margen entre ellos */
-    margin-bottom: 50px;
-  }
-  
-  .parqueaderos img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-  }
-  
-  .parqueaderos h3 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .parqueaderos p {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-  
-  .boton-reserva {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #00A699;
-    color: #000000;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .boton-reserva:hover {
-    background-color: #007c73;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .parqueaderos li {
-      width: 90%; /* los elementos ocupan todo el ancho de su contenedor */
-      align-items: center;
-      margin-right: 0; /* eliminamos el margen derecho */
-      margin-bottom: 20px;
-    }
-    @media screen and (max-width: 768px) {
-      .informacion h1 {
-        font-size: 30px;
-        font-weight: bold;
-        margin-bottom: auto;
-      }
-      .informacion p {
-        font-size: 20px;
-        margin-bottom: 50;
-        
-      }
-      }
-  }
-  
-  footer {
-    background-color: #ffffff;
-    padding: 40px;
-    color: #000000;
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
+    width: 90%;
+    /* los elementos ocupan todo el ancho de su contenedor */
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: auto;
+    margin-right: 0;
+    /* eliminamos el margen derecho */
+    margin-bottom: 20px;
   }
-  
-  footer a.logo {
-    font-size: 24px;
-    font-weight: 700;
-    color: #000000;
-    margin-bottom: 10px;
-  }
-  
-  footer p {
-    margin-top: 20px;
-  }
-  
+
   @media screen and (max-width: 768px) {
-    footer {
-      flex-direction: column;
+    .informacion h1 {
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: auto;
     }
-    
-    footer a.logo {
-      margin-bottom: 20px;
+
+    .informacion p {
+      font-size: 20px;
+      margin-bottom: 50;
+
     }
   }
-  
+}
+
+footer {
+  background-color: #ffffff;
+  padding: 40px;
+  color: #000000;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: auto;
+}
+
+footer a.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+footer p {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+  }
+
+  footer a.logo {
+    margin-bottom: 20px;
+  }
+}
