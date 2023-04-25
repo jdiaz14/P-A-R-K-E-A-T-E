@@ -7,18 +7,19 @@
     <title>Parkeate - Iniciar sesión</title>
     <link rel="stylesheet" href="/css/login.css" />
   </head>
+  <script src="/js/login.js"></script>
   <body>
     <header>
       <nav>
         <a href="index.html" class="logo">P A R K E A T E</a>
         <a href="register.html" class="nav-link">Registrarse</a>
-        <a href="#" class="nav-contac">Contacto</a>
+        <a href="contacto.html" class="nav-contac">Contacto</a>
       </nav>
     </header>
     <main>
       <section class="login-form">
         <h1>Iniciar sesión</h1>
-        <form>
+        <form id="login-form" method="post" action="login.php">
           <label for="email">Correo electrónico:</label>
           <input type="email" id="email" name="email" required />
           <label for="password">Contraseña:</label>
