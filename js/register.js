@@ -1,4 +1,4 @@
-document.querySelector('registro').addEventListener('submit', function(e) {
+document.querySelector('.registro').addEventListener('submit', function(e) {
     e.preventDefault(); // Previene que la página se refresque
   
     // Obtener los valores de los campos de formulario
